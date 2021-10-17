@@ -1,0 +1,11 @@
+@use "../util" as *;
+
+.container {
+  max-width: rem(880);
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}

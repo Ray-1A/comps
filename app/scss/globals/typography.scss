@@ -1,0 +1,90 @@
+@use "../util" as *;
+
+:root {
+  --header-height: 3rem;
+
+  //Font Size Variables
+
+  --xs-font-size: 0.75rem;
+  --s-font-size: 0.813rem;
+  --m-font-size: 0.938rem;
+  --ml-font-size: 0.95rem;
+  --sm-font-size: 1.1rem;
+  --l-font-size: 2rem;
+
+  //Heading Font Size
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+
+  // font weight size
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  //Margin Bottom
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  //Z Index
+  --z-tolltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+
+  //Font size for Large Devices
+  @include breakpoint(large) {
+    --xs-font-size: 0.813rem; // +0.063
+    --s-font-size: 0.875rem; // +0.062
+    --m-font-size: 1rem; // +0.062
+    --l-font-size: 3rem; // +1
+
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  box-shadow: 0;
+  border: 0;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1; /* 1 */
+  margin: 0; /* 2 */
+}
+
+textarea {
+  resize: none;
+}
