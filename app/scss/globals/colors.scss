@@ -5,38 +5,24 @@
   --hue-color: 215;
   --saturation: 82%;
   --lightness: 99%;
-  //Palette Picker
 
   //Color variables / Light theme
-  --primary-clr-300: hsl(215, 82%, 61%);
-  --primary-clr-400: hsl(215, 82%, 51%);
-  --primary-clr-500: hsl(215, 82%, 41%);
-  --primary-clr-600: hsl(215, 82%, 31%);
+  --moodle-primary-clr-300: hsl(215, 82%, 61%);
+  --moodle-primary-clr-400: hsl(215, 82%, 51%);
+  --moodle-primary-clr-500: hsl(215, 82%, 41%);
+  --moodle-primary-clr-600: hsl(215, 82%, 31%);
+  --moodle-primary-clr-700: hsl(215, 82%, 21%);
+  --moodle-primary-clr-800: hsl(215, 82%, 11%);
 
-  --secondary-clr-300: hsl(215, 57%, 53%);
-  --first-color-lighter: hsl(215, 92%, 85%);
-  --title-color: hsl(215, 8%, 15%);
-  --text-color: hsl(215, 8%, 45%);
-  --text-color-light: hsl(215, 8%, 65%);
-  --input-color: hsl(215, 70%, 96%);
-  --input-color-darken: hsl(215, 70%, 90%);
-  --body-color: hsl(215, 10%, 98%);
-  --header-color: hsl(215, 67%, 95%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(215, 12%, 90%);
-  --scroll-thumb-color: hsl(215, 37%, 31%);
-}
-
-body.dark-theme {
-  //Color variables / Dark theme
-
-  --first-color-second: hsl(var(--hue-color), 30%, 8%);
-  --title-color: hsl(var(--hue-color), 8%, 95%);
-  --text-color: hsl(var(--hue-color), 8%, 75%);
-  --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
-  --header-color: hsl(var(--hue-color), 67%, 7%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 37%, 31%);
+  //Gray
+  --moodle-gray-dark: #343a40;
+  --moodle-gray-100: #f8f9fa;
+  --moodle-gray-200: #e9ecef;
+  --moodle-gray-300: #dee2e6;
+  --moodle-gray-400: #ced4da;
+  --moodle-gray-500: #adb5bd;
+  --moodle-gray-600: #6c757d;
+  --moodle-gray-700: #495057;
+  --moodle-gray-800: #343a40;
+  --moodle-gray-900: #212529;
 }

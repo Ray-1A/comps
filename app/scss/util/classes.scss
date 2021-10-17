@@ -6,30 +6,3 @@
   height: 1px;
   overflow: hidden;
 }
-
-//section
-.section {
-  padding: 2rem 0 4rem;
-  height: 100vh;
-}
-
-.section__title {
-  font-size: var(--h1-font-size);
-}
-
-.section__subtitle {
-  display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-3);
-}
-
-.section__title,
-.section__subtitle {
-  text-align: center;
-}
-
-.trim-text {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
