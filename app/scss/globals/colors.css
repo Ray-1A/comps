@@ -1,0 +1,30 @@
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+:root {
+  --hue-color: 215;
+  --saturation: 82%;
+  --lightness: 99%;
+  --moodle-primary-clr-300: hsl(215, 82%, 61%);
+  --moodle-primary-clr-400: hsl(215, 82%, 51%);
+  --moodle-primary-clr-500: hsl(215, 82%, 41%);
+  --moodle-primary-clr-600: hsl(215, 82%, 31%);
+  --moodle-primary-clr-700: hsl(215, 82%, 21%);
+  --moodle-primary-clr-800: hsl(215, 82%, 11%);
+  --moodle-gray-dark: #343a40;
+  --moodle-gray-100: #f8f9fa;
+  --moodle-gray-200: #e9ecef;
+  --moodle-gray-300: #dee2e6;
+  --moodle-gray-400: #ced4da;
+  --moodle-gray-500: #adb5bd;
+  --moodle-gray-600: #6c757d;
+  --moodle-gray-700: #495057;
+  --moodle-gray-800: #343a40;
+  --moodle-gray-900: #212529;
+}/*# sourceMappingURL=colors.css.map */

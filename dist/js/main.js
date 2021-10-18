@@ -1,2 +1,2 @@
 "use strict";console.log("hello ");
-//# sourceMappingURL=all.js.map
+//# sourceMappingURL=main.js.map

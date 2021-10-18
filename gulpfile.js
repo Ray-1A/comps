@@ -22,11 +22,13 @@ function scssTask() {
 
 // Javascript Task
 function jsTask() {
-  return src(["app/js/**/*.js", "app/js/*.js"], { sourcemaps: true })
-    .pipe(concat("all.js"))
-    .pipe(babel({ presets: ["@babel/preset-env"] }))
-    .pipe(terser())
-    .pipe(dest("dist/js", { sourcemaps: "." }));
+  return (
+    src(["app/js/**/*.js", "app/js/*.js"], { sourcemaps: true })
+      //.pipe(concat("all.js"))
+      .pipe(babel({ presets: ["@babel/preset-env"] }))
+      .pipe(terser())
+      .pipe(dest("dist/js", { sourcemaps: "." }))
+  );
 }
 
 // Browsersync
